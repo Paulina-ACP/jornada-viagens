@@ -12,6 +12,8 @@
     display: block;
     background-color: transparent;
     position: static;
+    padding: 0 48px ;
+    margin-bottom: 24px;
 }
 
 .card header p{
@@ -27,6 +29,6 @@
 
 .card header span{
     font-size: 32px;
-    margin-top: 24px 0 0;
+    margin-top: 24px;
     display: inline-block;
 }
