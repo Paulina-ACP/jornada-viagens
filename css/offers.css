@@ -7,12 +7,13 @@
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
+  margin-bottom: 24px;
 }
 .card header {
   display: block;
   background-color: transparent;
   position: static;
-  padding: 0 48px;
+  padding: 0 2px;
   margin-bottom: 24px;
 }
 
@@ -24,7 +25,7 @@
 .card header h3 {
   font-size: 40px;
   font-weight: var(--titles-weigth);
-  margin: 8px 0 0;
+  margin: 6px 0 0;
 }
 
 .card header span {
