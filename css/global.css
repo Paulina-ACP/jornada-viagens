@@ -76,14 +76,14 @@ section.hero {
   margin: 16px auto 32px;
 }
 
-.content-title{
-    font-size: 28px;
-    font-weight: var(--titles-weigth);
+.content-title {
+  font-size: 28px;
+  font-weight: var(--titles-weigth);
 }
 
-.content-text{
-    font-size: 20px;
-    font-weight: var(--text-weigth);
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weigth);
 }
 
 .button {
@@ -124,6 +124,12 @@ section.hero {
   section .hero {
     width: 100%;
   }
+  .content-title {
+    font-size: 30px;
+  }
+  .content-text {
+    font-size: 24px;
+  }
   .button:hover {
     background-color: var(--primary-color);
   }
@@ -132,8 +138,12 @@ section.hero {
 @media screen and (min-width: 1440px) {
   section {
     width: 1200px;
+    align-items: center;
   }
   section .hero {
     width: 100%;
+  }
+  .content-text {
+    font-size: 28px;
   }
 }

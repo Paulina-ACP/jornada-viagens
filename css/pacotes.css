@@ -45,7 +45,7 @@
 
 @media screen and (min-width: 1440px) {
   section {
-    width: 1340px;
+    width: 1300px;
   }
   .categories-cards .card {
     width: 288px;
@@ -53,9 +53,6 @@
 }
 
 @media screen and (min-width: 1900px) {
-  section {
-    width: 1600px;
-  }
   .categories-cards .card {
     width: 300px;
   }
