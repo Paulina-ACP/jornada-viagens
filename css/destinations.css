@@ -21,18 +21,12 @@
   background-size: cover;
 }
 .destinations .item header h4 {
-  font-size: 28px;
   margin-top: 0;
-  color: var(--texte-primary-color);
-  font-weight: var(--titles-weigth);
 }
 
 .destinations .item p {
-  font-size: 20px;
-  color: var(--texte-primary-color);
-  font-weight: var(--text-weigth);
   line-height: 32px;
-  margin-bottom: 24px;
+  margin: 10px 0 24px;
 }
 
 .destinations .button {
