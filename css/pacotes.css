@@ -1,8 +1,4 @@
-.categories .section-title{
-  width: 312px;
-  margin: 0 auto;
-  font-size: 32px;
-}
+
 
 .categories-cards {
   display: flex;
@@ -55,13 +51,19 @@
 }
 
 @media screen and (min-width: 1440px) {
+  section{
+    width: 1340px;
+  }
   .categories-cards .card{
     width: 288px;
   }
 }
   
 @media screen and (min-width: 1900px) {
+  section{
+    width: 1600px;
+  }
   .categories-cards .card {
-    width: 430px;
+    width: 300px;
   } 
 }
