@@ -33,7 +33,6 @@
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
   }
 }
 
@@ -44,15 +43,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-  section {
-    width: 1300px;
+  section .categories-cards{
+    width: 1440px;
   }
-  .categories-cards .card {
-    width: 288px;
-  }
-}
-
-@media screen and (min-width: 1900px) {
   .categories-cards .card {
     width: 288px;
   }
