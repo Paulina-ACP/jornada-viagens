@@ -19,7 +19,7 @@
 }
 
 .categories-cards .card.single-line {
-  padding: 50px;
+  padding: 40px;
 }
 
 .categories-cards .card.single-line.transfer img {
@@ -54,6 +54,6 @@
 
 @media screen and (min-width: 1900px) {
   .categories-cards .card {
-    width: 300px;
+    width: 288px;
   }
 }
