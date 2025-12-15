@@ -54,6 +54,10 @@ section.hero {
   width: 100%;
 }
 
+section.bottom-hero{
+  width: 100%;
+}
+
 .section-title {
   width: 280px;
   margin: 0 auto 32px;
@@ -100,6 +104,8 @@ section.hero {
   line-height: 64px;
   text-align: center;
 }
+
+
 
 @media screen and (min-width: 768px) {
   section {
