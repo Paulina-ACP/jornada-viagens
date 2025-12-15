@@ -1,9 +1,19 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img{
   height: 400px;
+  background-size: cover;
+}
+
+.hero .hero-img{
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
+.bottom-hero .hero-img{
+  margin-top: 88px;
+  background: url(../img/rodape-mobile.png) no-repeat;
+  background-size: cover;
+}
 .hero h2 {
   padding: 60px 24px;
   margin: 0;
@@ -14,11 +24,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero.hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
+
+  .bottom-hero .hero-img{
+    background: url(../img/rodape-descktop.png) no-repeat;
+    background-size: cover;
+}
   .hero h2 {
     padding: 60px 50px;
     font-size: 32;
@@ -31,6 +46,11 @@
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
+  .bottom-hero .hero-img{
+    height: 620px;
+    background: url(../img/rodape-descktop.png) no-repeat;
+    background-size: cover;
+}
   .hero h2 {
     padding: 60px 150px;
     font-size: 32px;
