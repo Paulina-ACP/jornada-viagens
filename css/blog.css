@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Texto */
+.blog-text {
+  width: 100%;
+}
+
+/* Imagem */
+.blog-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  display: block;
+}
+
+.image-first {
+  margin-top: 32px;
+  height: 310px;
+  background: url(../img/img-page-blog//acomodacao-mobile.png) no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .blog-text {
+    flex: 1.2;
+  }
+
+  .blog-image {
+    flex: 0.8;
+  }
+
+  .image-first {
+    background: url(../img/img-page-blog//acomodacao-descktop.png) no-repeat;
+    background-size: cover;
+  }
+}
