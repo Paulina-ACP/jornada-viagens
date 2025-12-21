@@ -121,3 +121,15 @@
     width: 570px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .travel-packages .hero-content {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero h2 {
+    padding: 88px 160px;
+  }
+}
