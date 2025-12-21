@@ -59,6 +59,11 @@
   font-weight: var(--text-weight);
   line-height: 32px;
 }
+.travel-packages.bottom-hero .hero-img {
+  margin-top: 88px;
+  background: url(../img/page-pacotes/bottom-hero-packages-mobile.png) no-repeat;
+  background-size: cover;
+}
 
 @media screen and (min-width: 768px) {
   .hero.hero-img {
@@ -90,6 +95,11 @@
     font-size: 32px;
     line-height: 48px;
   }
+  .travel-packages.bottom-hero .hero-img {
+  margin-top: 88px;
+  background: url(../img/page-pacotes/bottom-hero-packages-tablet.png) no-repeat;
+  background-size: cover;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -120,6 +130,11 @@
   .travel-packages .hero-content p {
     width: 570px;
   }
+  .travel-packages.bottom-hero .hero-img {
+  margin-top: 88px;
+  background: url(../img/page-pacotes/bottom-hero-packages-descktop.png) no-repeat;
+  background-size: cover;
+}
 }
 
 @media screen and (min-width: 1440px) {
