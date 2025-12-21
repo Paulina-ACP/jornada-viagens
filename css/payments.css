@@ -26,6 +26,7 @@
   grid-column: span 2;
 }
 
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/img-bags-payments-tablet.png) no-repeat;
