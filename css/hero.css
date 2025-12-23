@@ -4,17 +4,16 @@
   height: 400px;
   background-size: cover;
 }
-
 .hero .hero-img {
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
-
 .bottom-hero .hero-img {
   margin-top: 88px;
   background: url(../img/rodape-mobile.png) no-repeat;
   background-size: cover;
 }
+
 .hero h2 {
   padding: 60px 24px;
   margin: 0;
@@ -23,22 +22,18 @@
   line-height: 1.5;
   font-size: 20;
 }
-
 /* Pacotes de viagem*/
 .travel-packages.hero {
   margin-bottom: 88px;
 }
-
 .travel-packages .hero-img {
   height: 460px;
   background: url(../img/page-pacotes/hero-pacotes-mobile.png) no-repeat;
   background-size: cover;
 }
-
 .travel-packages .hero-content {
   padding: 65px 24px;
 }
-
 .travel-packages .hero-content h1 {
   font-size: 48px;
   color: var(--text-secondary-color);
@@ -51,7 +46,6 @@
   border: none;
   margin: 16px 0 32px;
 }
-
 .travel-packages .hero-content p {
   font-size: 20px;
   color: var(--text-secondary-color);
@@ -68,17 +62,14 @@
 .blog-jornada.hero {
   margin-bottom: 88px;
 }
-
 .blog-jornada .hero-img {
   height: 460px;
   background: url(../img/img-page-blog/hero-blog-mobile.png) no-repeat;
   background-size: cover;
 }
-
 .blog-jornada .hero-content {
   padding: 65px 24px;
 }
-
 .blog-jornada .hero-content h1 {
   font-size: 48px;
   color: var(--text-secondary-color);
@@ -91,7 +82,6 @@
   border: none;
   margin: 16px 0 32px;
 }
-
 .blog-jornada .hero-content p {
   font-size: 20px;
   color: var(--text-secondary-color);
@@ -104,13 +94,51 @@
   background-size: cover;
 }
 
+/*Pag entre em Contato */
+.contact.hero {
+  margin-bottom: 88px;
+}
+.contact .hero-img {
+  height: 460px;
+  background: url(../img/contato-img/hero-contato-mobile.png) no-repeat;
+  background-size: cover;
+}
+.contact .hero-content {
+  padding: 65px 24px;
+}
+.contact .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weigth);
+}
+.contact .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.contact .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+.contact.bottom-hero .hero-img {
+  margin-top: 88px;
+  background: url(../img/contato-img/botton-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
+  .hero .hero-content {
+    margin: 0 0 0 60px;
+  }
   .hero.hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
-
   .bottom-hero .hero-img {
     background: url(../img/rodape-descktop.png) no-repeat;
     background-size: cover;
@@ -123,33 +151,30 @@
   .travel-packages .hero-content {
     padding: 210px 70px 107px;
   }
-
   .travel-packages .hero-img {
     height: 620px;
     background: url(../img/page-pacotes/hero-pacotes-tablet.png) no-repeat;
     background-size: cover;
   }
-
   .travel-packages .hero-content p {
     font-size: 32px;
     line-height: 48px;
   }
   .travel-packages.bottom-hero .hero-img {
     margin-top: 88px;
-    background: url(../img/page-pacotes/bottom-hero-packages-tablet.png) no-repeat;
+    background: url(../img/page-pacotes/bottom-hero-packages-tablet.png)
+      no-repeat;
     background-size: cover;
   }
   /*Blog jornada*/
   .blog-jornada .hero-content {
     padding: 210px 70px 107px;
   }
-
   .blog-jornada .hero-img {
     height: 620px;
     background: url(../img/img-page-blog/hero-blog-tablet.png) no-repeat;
     background-size: cover;
   }
-
   .blog-jornada .hero-content p {
     font-size: 32px;
     line-height: 48px;
@@ -158,6 +183,24 @@
     margin-top: 88px;
     background: url(../img/page-pacotes/bottom-hero-packages-tablet.png)
       no-repeat;
+    background-size: cover;
+  }
+  /* Pag entre em contato*/
+  .contact .hero-content {
+    padding: 210px 70px 107px;
+  }
+  .contact .hero-img {
+    height: 620px;
+    background: url(../img/contato-img/hero-contact-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .contact .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .contact.bottom-hero .hero-img {
+    margin-top: 88px;
+    background: url(../img/contato-img/botton-tablet.png) no-repeat;
     background-size: cover;
   }
 }
@@ -196,7 +239,7 @@
       no-repeat;
     background-size: cover;
   }
-    /*Blog jornada*/
+  /*Blog jornada*/
   .blog-jornada .hero-content {
     padding: 210px 70px 107px;
     margin: 0 auto;
@@ -215,6 +258,25 @@
       no-repeat;
     background-size: cover;
   }
+  /* Pag entre em contato*/
+  .contact .hero-content {
+    padding: 210px 70px 107px;
+    margin: 0 auto;
+  }
+  .contact .hero-img {
+    height: 620px;
+    background: url(../img/contato-img/hero-contact-descktop.png) no-repeat;
+    background-size: cover;
+  }
+  .contact .hero-content p {
+    width: 570px;
+  }
+  .contact.bottom-hero .hero-img {
+    margin-top: 88px;
+    background: url(../img/contato-img/botton-descktop.png)
+      no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -222,6 +284,9 @@
     width: 1200px;
   }
   .blog-jornada .hero-content {
+    width: 1200px;
+  }
+  .contact .hero-content {
     width: 1200px;
   }
 }
