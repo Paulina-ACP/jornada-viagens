@@ -61,6 +61,14 @@ textarea:valid {
   border-color: rgb(8, 150, 8);
 }
 
+.envio h1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px;
+  color: #2e7d32;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .formulario p {
     font-size: 20px;
