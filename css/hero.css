@@ -131,13 +131,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero .hero-content {
-    margin: 0 0 0 60px;
-  }
-  .hero.hero-img {
-    height: 620px;
+  .hero .hero-img {
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
+    height: 620px;
+  }
+  .hero .hero-content {
+    margin: 0 0 0 60px;
   }
   .bottom-hero .hero-img {
     background: url(../img/rodape-descktop.png) no-repeat;
@@ -206,8 +206,8 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
-    height: 620px;
+  .hero .hero-img {
+    height: 600px;
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
@@ -273,8 +273,7 @@
   }
   .contact.bottom-hero .hero-img {
     margin-top: 88px;
-    background: url(../img/contato-img/botton-descktop.png)
-      no-repeat;
+    background: url(../img/contato-img/botton-descktop.png) no-repeat;
     background-size: cover;
   }
 }
