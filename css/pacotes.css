@@ -43,10 +43,13 @@
 }
 
 @media screen and (min-width: 1440px) {
-  section .categories-cards{
+  section .categories-cards {
     width: 1440px;
   }
   .categories-cards .card {
     width: 288px;
+  }
+  .categories-cards .card.single-line.seguro-viagem h3 {
+    margin-top: 18px;
   }
 }
